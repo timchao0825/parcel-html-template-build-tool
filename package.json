@@ -1,0 +1,26 @@
+{
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel './src/pages/*.html' --host 0.0.0.0",
+    "prod": "rm -rf dist && parcel build './src/pages/*.html' --public-url ./ --no-cache"
+  },
+  "devDependencies": {
+    "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.11.0",
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/transformer-inline-string": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}

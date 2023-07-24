@@ -1,0 +1,15 @@
+@import 'global/variable';
+@import 'global/normalize';
+
+body {
+}
+
+.test-icon {
+  z-index: 5;
+  width: 50px;
+  height: 100px;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  border: 2px solid var(--default-color);
+  background-image: url('../images/arrow-down@dark.svg');
+}
