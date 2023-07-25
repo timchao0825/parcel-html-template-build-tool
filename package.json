@@ -1,8 +1,8 @@
 {
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "dev": "parcel './src/pages/*.html' --host 0.0.0.0",
-    "prod": "rm -rf dist && parcel build './src/pages/*.html' --public-url ./ --no-cache"
+    "dev": "parcel './src/*.html' --host 0.0.0.0",
+    "prod": "rm -rf dist && parcel build './src/*.html' './src/js/*.js' './src/scss/*.scss' './src/images/*/*.*' './src/images/*.*'  --public-url . --no-cache"
   },
   "devDependencies": {
     "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.11.0",
@@ -10,8 +10,10 @@
     "@parcel/transformer-inline-string": "^2.9.3",
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
+    "postcss": "^8.4.27",
     "posthtml-doctype": "^1.1.1",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "tailwindcss": "^3.3.3"
   },
   "dependencies": {
     "eslint": "^8.45.0",

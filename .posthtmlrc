@@ -4,7 +4,7 @@
       "doctype": "HTML 5"
     },
     "posthtml-include": {
-      "root": "./src/pages/template"
+      "root": "./src/template"
     }
   }
 }

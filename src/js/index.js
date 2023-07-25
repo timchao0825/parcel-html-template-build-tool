@@ -1,2 +1,3 @@
 import '../scss/main.scss'
-console.log('index js')
+import '../scss/index.scss'
+console.log('index js 123')
