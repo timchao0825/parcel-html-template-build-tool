@@ -1,0 +1,14 @@
+{
+  "collapseAttributeWhitespace": false,
+  "collapseBooleanAttributes": false,
+  "collapseWhitespace": "conservative",
+  "custom": [],
+  "deduplicateAttributeValues": false,
+  "mergeScripts": false,
+  "mergeStyles": false,
+  "removeUnusedCss": false,
+  "minifyJson": false,
+  "minifySvg": false,
+  "removeEmptyAttributes": false,
+  "removeRedundantAttributes": false
+}
